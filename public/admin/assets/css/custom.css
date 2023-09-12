@@ -1,0 +1,80 @@
+.form-label {
+	font-size: 15px;
+	color: #000000;
+}
+.btn-success.save-button {
+	padding: 8px 40px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.form-control {
+	border-color: #c1c7d5;
+}
+.app-sidebar .main-sidebar-header .header-logo img {
+	height: 3rem;
+	line-height: 2rem;
+	width: 3rem;
+}
+td.title-column {
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* Datatable Items */
+.dt-button.buttons-columnVisibility.active {
+	background: black;
+}
+div.dt-button-collection .dt-button:not(.dt-btn-split-drop) {
+	margin-bottom: 5px;
+}
+.items-table .dt-button {
+	background-color: #464545;
+}
+.items-table .items-custom-section .select-supplier-dropdown {
+	width: 200px;
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 6px;
+}
+#datatable-items_length {
+	margin-left: 230px;
+}
+th, td { white-space: nowrap; }
+div.dataTables_wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+.dtfc-fixed-left, .dtfc-fixed-right {
+	background: white !important;
+}
+td.bg-dark-red {
+	background-color: darkred;
+	color: white;
+}
+td.bg-light-red {
+	background-color: red;
+	color: white;
+}
+
+.notification-item {
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.notification-item .notification-text {
+
+}
+.main-header-container .header-link-icon {
+    font-size: 28px;
+    margin: 6px 20px 12px 0;
+}
+.main-header-container .notification-bell-icon-dot {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ff4b25;
+    background-color: #ff4b25;
+    border-radius: 50%;
+}
