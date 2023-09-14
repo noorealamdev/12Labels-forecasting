@@ -93,7 +93,7 @@ class ApiController extends Controller
 
         try {
             $skuVaultresponse = $client->request('POST', 'https://app.skuvault.com/api/products/getProduct', [
-                'body' => '{"TenantToken":"Qi5rmltRog9RaxbwpDHOItIAHI5EOhHGe4+zub3Qhb8=","UserToken":"0OlQC7FcDAyY81HaALsKD9i3HWJkVgHXFyaN7cf3/ck=","ProductSKU":"' . $input_sku . '"}',
+                'body' => '{"TenantToken":"......","UserToken":"......","ProductSKU":"' . $input_sku . '"}',
                 'headers' => [
                     'Accept' => 'application/json',
                     'Content-Type' => 'application/json',
@@ -121,7 +121,7 @@ class ApiController extends Controller
 
         try {
             $skuVaultresponse = $client->request('POST', 'https://app.skuvault.com/api/purchaseorders/getPOs', [
-                'body' => '{"PageNumber":0,"IncludeProducts":false,"TenantToken":"Qi5rmltRog9RaxbwpDHOItIAHI5EOhHGe4+zub3Qhb8=","UserToken":"0OlQC7FcDAyY81HaALsKD9i3HWJkVgHXFyaN7cf3/ck="}',
+                'body' => '{"PageNumber":0,"IncludeProducts":false,"TenantToken":"......","UserToken":"......"}',
                 'headers' => [
                     'Accept' => 'application/json',
                     'Content-Type' => 'application/json',
@@ -164,7 +164,7 @@ class ApiController extends Controller
 
         try {
             $skuVaultresponse = $client->request('POST', 'https://app.skuvault.com/api/products/getSuppliers', [
-                'body' => '{"PageNumber":0,"TenantToken":"Qi5rmltRog9RaxbwpDHOItIAHI5EOhHGe4+zub3Qhb8=","UserToken":"0OlQC7FcDAyY81HaALsKD9i3HWJkVgHXFyaN7cf3/ck="}',
+                'body' => '{"PageNumber":0,"TenantToken":".....","UserToken":"......"}',
                 'headers' => [
                     'Accept' => 'application/json',
                     'Content-Type' => 'application/json',
